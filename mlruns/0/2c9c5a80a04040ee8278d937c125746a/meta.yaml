@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/harishkanuri/ik/E2E_MLOPS_Project/mlruns/0/2c9c5a80a04040ee8278d937c125746a/artifacts
+end_time: 1739899638804
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c9c5a80a04040ee8278d937c125746a
+run_name: agreeable-foal-347
+run_uuid: 2c9c5a80a04040ee8278d937c125746a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739899633278
+status: 4
+tags: []
+user_id: harishkanuri
