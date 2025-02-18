@@ -3,6 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 from mlProject.pipeline.prediction import PredictionPipeline
+from mlProject import logger
 
 
 app = Flask(__name__) # initializing a flask app
@@ -41,8 +42,9 @@ def index():
             
             obj = PredictionPipeline()
             predict = obj.predict(data)
+            logger.info(predict)
 
-            return render_template('results.html', prediction = str(predict))
+            return render_template('result.html', prediction = str(predict))
 
         except Exception as e:
             print('The Exception message is: ',e)
